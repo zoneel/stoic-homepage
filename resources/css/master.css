@@ -9,6 +9,8 @@ body{
   font-family: "Subtle Sans";
   src: url("/fonts/Share-Bold.ttf") format("truetype");
 }
+
+
        
 
 * { padding: 0; margin: 0; 
@@ -54,7 +56,6 @@ html, body, #fullheight {
   font-weight: bolder;
   font-style:initial;
   font-size: 30px;
-
 }
 
 #quote>h1{
