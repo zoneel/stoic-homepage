@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title></title>
+    <!-- CSS files-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="resources/css/master.css" />
+  </head>
 
-<head>
-  <title></title>
-  <!-- CSS files-->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="resources/css/master.css">
-</head>
+  <body>
+    <div id="countdown"> <!-- in this div you set your countdown (to manage them go to countdown.js file)-->
+      <h1>Countdowns:</h1>
+      <h3>Time until EE.09 Exam:</h3>
+      <p id="firstcd"></p> 
+      <h3>Time until Matura:</h3>
+      <p id="seccd"></p>
+    </div>
 
-<body>
-  <div id="countdown">
-    <h1>Countdowns:</h1><br><br><br><br>
-    <h3>Time until EE09:</h3><br>
-    <p id="ee09"> </p><br><br><br><br><br>
-    <br><br><br><br><br><br><h3>Time until Matura:</h3><br>
-    <p id="matura"></p><br><br>
-  </div>
+    <div id="mainclock">
+      <h1>
+        <p id="clock">12312</p>
+      </h1>
+      <section id="waking">
+        <h2>Time left for sleep:</h2>
 
-  <div id="zegar">
-    <h1>
-      <p id="clock">12312</p>
-    </h1>
+        <h3>Time until 7:00 AM</h3>
+        <p id="seven"></p>
 
-    <section id="waking">
-      <h2>Time left for sleep: </h2><br><br><br>
+        <h3>Time until 9:00 AM</h3>
+        <p id="nine"></p>
+      </section>
+      <p id="currdate">24 December 2021</p>
+    </div>
 
-      Waking at 7:00 AM<br><br><br>
-      <p id="seven"></p>
-      Waking at 8:00 AM<br><br><br>
-      <p id="eight"></p>
+    <div id="quotes">
+      <h1>Random virtue:</h1>
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
 
-      Waking at 8:45 AM<br><br><br>
-      <p id="nine"></p>
-
-    </section>
-  </div>
-
-  <div id="quotes">
-    <h1>Random quote:</h1><br>
-    <p id="quote"></p>
-    <p id="author"></p>
-  </div>
-
-  <script src="resources/js/quotes.js" charset="utf-8"></script>
-  <script src="resources/js/clock.js" charset="utf-8"></script>
-  <script src="resources/js/countdown.js" charset="utf-8"></script>
-  <script src="resources/js/sleeptime.js" charset="utf-8"></script>
-
-
-</body>
-
+    <script src="resources/js/quotes.js" charset="utf-8"></script>
+    <script src="resources/js/clock.js" charset="utf-8"></script>
+    <script src="resources/js/countdown.js" charset="utf-8"></script>
+    <script src="resources/js/sleeptime.js" charset="utf-8"></script>
+  </body>
 </html>

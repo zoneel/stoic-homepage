@@ -1,15 +1,8 @@
-
-const ee09 = document.getElementById('ee09');
-const matura = document.getElementById('matura');
-
 var today = new Date();
+CountDownTimer('01/10/2022 8:00 AM', 'firstcd');
+CountDownTimer('05/04/2022 10:1 AM', 'seccd');
 
-
-CountDownTimer('01/10/2022 8:00 AM', 'ee09');
-CountDownTimer('05/04/2022 10:1 AM', 'matura');
-
-function CountDownTimer(dt, id)
-{
+function CountDownTimer(dt, id) {
     var end = new Date(dt);
 
     var _second = 1000;

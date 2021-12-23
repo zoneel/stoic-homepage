@@ -1,7 +1,3 @@
-0// ----------------------------------------------------------------- //
-// ------------- ►►► </> with ♥ by Vittorio Retrivi ◄◄◄ ------------ //
-// ----------------------------------------------------------------- //
-
 const clock = document.getElementById('clock');
 const quote = document.getElementById('quote');
 const author = document.getElementById('author');
