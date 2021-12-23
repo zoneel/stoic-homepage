@@ -2,6 +2,8 @@
 
 Stoic homepage is a **simple chrome extension** that uses manifest function and overrides your browser's new page. 
 
+
+
  - Get rid of your **boring** default chrome home page and enrich your mind with **Stoic virtues** that come along.
  - Live updated **countdowns** that you can set by yourself allow you to keep track of how much time is remaining till a major event in your near future!
  - **Sleep** is a crucial factor for your health, and you can easily track how much time you have left until morning.
