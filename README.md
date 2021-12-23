@@ -16,7 +16,7 @@ Stoic homepage is a **simple chrome extension** that uses manifest function and 
 
 ## Preview
 
-![preview](https://raw.githubusercontent.com/zoneel/stoic-homepage/main/preview.png)
+![preview](https://github.com/zoneel/stoic-homepage/blob/main/preview.png)
 
 
 ## How can I get my hands on that mind breaking technology?
