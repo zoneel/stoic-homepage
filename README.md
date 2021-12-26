@@ -1,4 +1,4 @@
-# Stoic homepage
+# Stoic mainpage
 
 Stoic homepage is a **simple chrome extension** that uses manifest function and overrides your browser's new page. 
 
