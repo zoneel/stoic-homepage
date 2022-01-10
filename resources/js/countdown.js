@@ -1,5 +1,5 @@
 var today = new Date();
-CountDownTimer('01/10/2022 8:00 AM', 'firstcd');
+CountDownTimer('01/11/2022 2:00 PM', 'firstcd');
 CountDownTimer('05/04/2022 10:1 AM', 'seccd');
 
 function CountDownTimer(dt, id) {
